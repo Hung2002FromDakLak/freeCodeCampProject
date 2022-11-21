@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: inherit;
+}
+#navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #ff0202;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#navbar a {
+    height: 70px;
+    color: aliceblue;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: larger;
+    line-height: 70px;
+}
+#navbar a:hover {
+    background-color: rgb(44, 44, 245);
+}
+#welcome-section {
+    margin-top: 70px;
+    height: 100vh;
+    background-color: rgb(103, 100, 100);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#welcome-section h1 {
+    color: aliceblue;
+    font-size: 60px;
+}
+#welcome-section p {
+    color: #ff0202;
+    font-size: 30px;
+}
+
+/*project*/
+#projects {
+    background-color: rgb(91, 144, 249);
+}
+.project-tile {
+
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: aliceblue;
+    border-bottom: solid 2px #fff;
+    padding: 20px;
+}
+#my-project {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#detail-project {
+    text-decoration: none;
+    height: 475px;
+}
+#detail-project img {
+    width: 400px;
+    height: 325px;
+}
+#detail-project p {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(95, 91, 91);
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+#contact {
+    height: 90vh;
+    background-color: rgb(103, 100, 100);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact h2 {
+    font-size: 50px;
+    color: #fff;
+    padding: 10px;
+}
+#contact i {
+    font-size: 20px;
+    color: #ff0202;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.info a {
+    color: rgb(197, 193, 193);
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+#footer {
+    background-color: bisque;
+    height: 5vh;
+    line-height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 5px rgb(141, 67, 67);
+    font-size: 15px;
+    font-weight: bolder;
+}
+@media (min-width: 550) {
+
+}

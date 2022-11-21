@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+}
+/* header */
+#header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+}
+#header-img {
+    height: 100%;
+    width: 20%
+}
+#nav-bar {
+    height: 100%;
+    
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(41, 41, 41);
+    margin-right: 75px;
+}
+/* hero */
+
+#hero {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+#form {
+    padding: 20px;
+}
+#email {
+    width: 20%;
+    color: rgba(63, 57, 57, 0.66);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 2px;
+}
+.btn {
+    width: 10%;
+    padding: 10px;
+    background-color: yellow;
+    font-weight: bold;
+    border: none;
+}
+/* features */
+#feature{
+    width: 56%;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+#feature1,
+#feature2,
+#feature3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    
+}
+#logo {
+    flex-grow: 0.3;
+    padding: 20px;
+}
+#content {
+    flex-grow: 9.7;
+    padding-top: 5px;
+}
+/* video */
+#howitwork {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#video {
+    width: 560px;
+    height: 315px;
+}
+/* pricing */
+#pricing {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#item {
+    border: 2px solid black;
+    margin: 25px;
+    width: 300px;
+    height: 280px;
+    text-align: center;
+}
+#title-item {
+    background-color: rgba(191, 188, 188, 0.496);
+    padding: 25px;
+
+}
+#price-item {
+    padding: 10px;
+}
+#item p {
+    margin: 10px;
+}
+#btn-id {
+    text-decoration: none;
+    background-color: yellow;
+    margin-top: 25px;
+    padding: 10px;
+}
+footer {
+    background-color: rgba(191, 188, 188, 0.496);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: end;
+    padding: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin: 15px 10px;
+}
+footer p {
+    margin-top: 10px;
+}
+@media (min-width: 500px) {
+    
+}
